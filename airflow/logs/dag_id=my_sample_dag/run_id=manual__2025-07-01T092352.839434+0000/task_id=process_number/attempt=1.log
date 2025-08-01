@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-01T09:23:58.620600","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-01T09:23:58.621566","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/first-dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-01T09:23:58.731611Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.733439Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.734627Z","level":"info","event":"Current task name:process_number","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.735440Z","level":"info","event":"Dag name:my_sample_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.736432Z","level":"info","event":"Processed number: 122","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.737786Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.738387Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.738813Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): process_number>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.675551","level":"info","event":"Done. Returned value was: 122","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-07-01T09:23:58.675825","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0197c54c-c79f-7d32-8efc-44c46ca55f59'), task_id='process_number', dag_id='my_sample_dag', run_id='manual__2025-07-01T09:23:52.839434+00:00', try_number=1, map_index=-1, hostname='5ce39e2b05c5', context_carrier=None, task=<Task(_PythonDecoratedOperator): process_number>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 7, 1, 9, 23, 58, 546373, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

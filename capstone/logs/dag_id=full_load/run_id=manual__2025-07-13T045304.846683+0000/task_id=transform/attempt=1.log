@@ -1,0 +1,49 @@
+{"timestamp":"2025-07-13T05:10:38.165449","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T05:10:38.166053","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/full_load.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T05:10:39.302945Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.304042Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.305086Z","level":"info","event":"Current task name:transform","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.305645Z","level":"info","event":"Dag name:full_load","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.306758Z","level":"info","event":"Index(['product_id', 'sku', 'name', 'url_path', 'thumbnail_url', 'price',","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.307323Z","level":"info","event":"       'discount', 'discount_rate', 'original_price', 'rating_average',","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.307840Z","level":"info","event":"       'review_count', 'quantity_sold', 'prime_category_name',","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.308611Z","level":"info","event":"       'crawled_timestamp', 'source', 'created_at', 'updated_at'],","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.312418Z","level":"info","event":"      dtype='object')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.316030Z","level":"info","event":"   product_id  ...                 updated_at","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.316504Z","level":"info","event":"0   278150175  ... 2025-07-13 05:10:39.290285","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.317079Z","level":"info","event":"1   278101824  ... 2025-07-13 05:10:39.290285","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.317660Z","level":"info","event":"2   277992334  ... 2025-07-13 05:10:39.290285","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.318835Z","level":"info","event":"3   277962612  ... 2025-07-13 05:10:39.290285","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.319637Z","level":"info","event":"4   277891027  ... 2025-07-13 05:10:39.290285","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.320042Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.320425Z","level":"info","event":"[5 rows x 17 columns]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.324251Z","level":"info","event":"<class 'pandas.core.frame.DataFrame'>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.324820Z","level":"info","event":"RangeIndex: 48205 entries, 0 to 48204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.325262Z","level":"info","event":"Data columns (total 17 columns):","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.325751Z","level":"info","event":" #   Column               Non-Null Count  Dtype","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.326231Z","level":"info","event":"---  ------               --------------  -----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.326719Z","level":"info","event":" 0   product_id           48205 non-null  int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.327186Z","level":"info","event":" 1   sku                  48205 non-null  object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.327644Z","level":"info","event":" 2   name                 48205 non-null  object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.328085Z","level":"info","event":" 3   url_path             48205 non-null  object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.328509Z","level":"info","event":" 4   thumbnail_url        48205 non-null  object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.329028Z","level":"info","event":" 5   price                48205 non-null  int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.332624Z","level":"info","event":" 6   discount             48205 non-null  int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.333357Z","level":"info","event":" 7   discount_rate        48205 non-null  int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.333641Z","level":"info","event":" 8   original_price       48205 non-null  int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.333936Z","level":"info","event":" 9   rating_average       48205 non-null  float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.334308Z","level":"info","event":" 10  review_count         48205 non-null  int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.334714Z","level":"info","event":" 11  quantity_sold        48205 non-null  int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.335124Z","level":"info","event":" 12  prime_category_name  48205 non-null  object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.335559Z","level":"info","event":" 13  crawled_timestamp    48205 non-null  object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.335912Z","level":"info","event":" 14  source               48205 non-null  object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.340559Z","level":"info","event":" 15  created_at           48205 non-null  datetime64[us]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.342806Z","level":"info","event":" 16  updated_at           48205 non-null  datetime64[us]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.343266Z","level":"info","event":"dtypes: datetime64[us](2), float64(1), int64(7), object(7)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.343681Z","level":"info","event":"memory usage: 6.3+ MB","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.344103Z","level":"info","event":"None","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:39.332613","level":"info","event":"Done. Returned value was:        product_id  ...                 updated_at\n0       278150175  ... 2025-07-13 05:10:39.290285\n1       278101824  ... 2025-07-13 05:10:39.290285\n2       277992334  ... 2025-07-13 05:10:39.290285\n3       277962612  ... 2025-07-13 05:10:39.290285\n4       277891027  ... 2025-07-13 05:10:39.290285\n...           ...  ...                        ...\n48200    71330852  ... 2025-07-13 05:10:39.290285\n48201    53484745  ... 2025-07-13 05:10:39.290285\n48202    52493048  ... 2025-07-13 05:10:39.290285\n48203    51953005  ... 2025-07-13 05:10:39.290285\n48204    51952613  ... 2025-07-13 05:10:39.290285\n\n[48205 rows x 17 columns]","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-07-13T05:10:39.332850","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01980221-2af0-781b-b952-c687950ac27e'), task_id='transform', dag_id='full_load', run_id='manual__2025-07-13T04:53:04.846683+00:00', try_number=1, map_index=-1, hostname='8611081302be', context_carrier=None, task=<Task(_PythonDecoratedOperator): transform>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=3, start_date=datetime.datetime(2025, 7, 13, 5, 10, 38, 126678, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2025-07-13T05:10:40.861339Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:40.864179Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T05:10:40.865136Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): transform>","chan":"stdout","logger":"task"}

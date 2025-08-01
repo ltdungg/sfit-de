@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-01T09:23:54.263808","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-01T09:23:54.266164","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/first-dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-01T09:23:54.352940","level":"info","event":"Done. Returned value was: 61","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-07-01T09:23:54.353887","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0197c54c-c79e-70cf-81fd-3c1c8ca91917'), task_id='generate_random_number', dag_id='my_sample_dag', run_id='manual__2025-07-01T09:23:52.839434+00:00', try_number=1, map_index=-1, hostname='5ce39e2b05c5', context_carrier=None, task=<Task(_PythonDecoratedOperator): generate_random_number>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 7, 1, 9, 23, 53, 562036, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.197663Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.198148Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.198613Z","level":"info","event":"Current task name:generate_random_number","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.198949Z","level":"info","event":"Dag name:my_sample_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.199710Z","level":"info","event":"Generated number: 61","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.200078Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.200479Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-01T09:23:58.200865Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): generate_random_number>","chan":"stdout","logger":"task"}

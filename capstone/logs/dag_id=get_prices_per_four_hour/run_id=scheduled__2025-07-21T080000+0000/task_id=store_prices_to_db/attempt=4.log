@@ -1,0 +1,11 @@
+{"timestamp":"2025-07-21T08:55:04.967787","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-21T08:55:04.968262","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/get_prices_per_four_hour.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T08:55:05.205136Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:55:05.206349Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:55:05.206986Z","level":"info","event":"Current task name:store_prices_to_db","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:55:05.207230Z","level":"info","event":"Dag name:get_prices_per_four_hour","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:55:05.205475","level":"info","event":"Connection Retrieved 'tiki_db'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-21T08:55:05.621753","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-07-21T08:55:05.637002Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:55:05.637482Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:55:05.637747Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): store_prices_to_db>","chan":"stdout","logger":"task"}

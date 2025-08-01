@@ -1,0 +1,6 @@
+pandas
+numpy
+psycopg2-binary
+requests
+apache-airflow
+apache-airflow-providers-postgres

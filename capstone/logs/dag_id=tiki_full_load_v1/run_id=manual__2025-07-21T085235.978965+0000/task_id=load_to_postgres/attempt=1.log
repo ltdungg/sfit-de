@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-21T08:53:05.656366","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-21T08:53:05.656834","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/full_load.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T08:53:05.909281Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:53:05.910012Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:53:05.910661Z","level":"info","event":"Current task name:load_to_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:53:05.911304Z","level":"info","event":"Dag name:tiki_full_load_v1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:53:05.921416","level":"info","event":"Connection Retrieved 'tiki_db'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-21T08:53:06.037302","level":"info","event":"Load completed: 2000 products upserted, 2000 price rows inserted","logger":"airflow.task"}
+{"timestamp":"2025-07-21T08:53:06.037580","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-07-21T08:53:06.053902Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:53:06.054318Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T08:53:06.054771Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load_to_postgres>","chan":"stdout","logger":"task"}

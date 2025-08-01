@@ -1,0 +1,98 @@
+{"timestamp":"2025-07-13T04:11:53.305821","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T04:11:53.307144","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/get_prices_per_four_hour.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T04:11:55.597339Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:55.609747Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:55.629368Z","level":"info","event":"Current task name:fetch_and_store_prices","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:55.652801Z","level":"info","event":"Dag name:get_prices_per_four_hour","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:55.662592Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:55.690504Z","level":"info","event":"Fetching products for category: Nhà Sách Tiki","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:55.714055Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=1&category=8322&urlKey=nha-sach-tiki (Page 1)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:55.735137Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:55.753473Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=2&category=8322&urlKey=nha-sach-tiki (Page 2)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:55.770735Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:55.789680Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=3&category=8322&urlKey=nha-sach-tiki (Page 3)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:55.801649Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:56.331266Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=4&category=8322&urlKey=nha-sach-tiki (Page 4)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:56.339722Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:56.888737Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=5&category=8322&urlKey=nha-sach-tiki (Page 5)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:56.891031Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:57.476498Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=6&category=8322&urlKey=nha-sach-tiki (Page 6)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:57.477077Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:57.976590Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=7&category=8322&urlKey=nha-sach-tiki (Page 7)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:57.977240Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:58.500598Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=8&category=8322&urlKey=nha-sach-tiki (Page 8)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:58.501134Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:58.978479Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=9&category=8322&urlKey=nha-sach-tiki (Page 9)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:58.979032Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:59.579997Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=10&category=8322&urlKey=nha-sach-tiki (Page 10)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:11:59.580443Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:00.066781Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=11&category=8322&urlKey=nha-sach-tiki (Page 11)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:00.067233Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:00.657155Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=12&category=8322&urlKey=nha-sach-tiki (Page 12)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:00.658112Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:01.232976Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=13&category=8322&urlKey=nha-sach-tiki (Page 13)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:01.233521Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:01.747949Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=14&category=8322&urlKey=nha-sach-tiki (Page 14)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:01.748313Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:02.396133Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=15&category=8322&urlKey=nha-sach-tiki (Page 15)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:02.396734Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:03.067141Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=16&category=8322&urlKey=nha-sach-tiki (Page 16)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:03.067459Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:03.665975Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=17&category=8322&urlKey=nha-sach-tiki (Page 17)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:03.666442Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:04.257334Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=18&category=8322&urlKey=nha-sach-tiki (Page 18)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:04.258393Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:04.880712Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=19&category=8322&urlKey=nha-sach-tiki (Page 19)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:04.881107Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:05.514689Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=20&category=8322&urlKey=nha-sach-tiki (Page 20)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:05.515282Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:06.524718Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=21&category=8322&urlKey=nha-sach-tiki (Page 21)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:06.525925Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:07.182248Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=22&category=8322&urlKey=nha-sach-tiki (Page 22)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:07.182874Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:07.821650Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=23&category=8322&urlKey=nha-sach-tiki (Page 23)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:07.822548Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:10.159109Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=24&category=8322&urlKey=nha-sach-tiki (Page 24)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:10.160755Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:10.898491Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=25&category=8322&urlKey=nha-sach-tiki (Page 25)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:10.898988Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:11.711271Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=26&category=8322&urlKey=nha-sach-tiki (Page 26)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:11.712059Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:13.606577Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=27&category=8322&urlKey=nha-sach-tiki (Page 27)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:13.606945Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:14.195869Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=28&category=8322&urlKey=nha-sach-tiki (Page 28)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:14.196256Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:14.784351Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=29&category=8322&urlKey=nha-sach-tiki (Page 29)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:14.785503Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:15.323621Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=30&category=8322&urlKey=nha-sach-tiki (Page 30)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:15.325295Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:16.035467Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=31&category=8322&urlKey=nha-sach-tiki (Page 31)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:16.038012Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:16.629860Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=32&category=8322&urlKey=nha-sach-tiki (Page 32)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:16.630736Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:17.376578Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=33&category=8322&urlKey=nha-sach-tiki (Page 33)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:17.379297Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:18.045272Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=34&category=8322&urlKey=nha-sach-tiki (Page 34)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:18.045661Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:18.530073Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=35&category=8322&urlKey=nha-sach-tiki (Page 35)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:18.530671Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:19.072028Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=36&category=8322&urlKey=nha-sach-tiki (Page 36)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:19.072645Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:19.609416Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=37&category=8322&urlKey=nha-sach-tiki (Page 37)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:19.609836Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:20.109457Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=38&category=8322&urlKey=nha-sach-tiki (Page 38)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:20.110463Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:20.706620Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=39&category=8322&urlKey=nha-sach-tiki (Page 39)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:20.707047Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:21.214211Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=40&category=8322&urlKey=nha-sach-tiki (Page 40)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:21.214794Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:21.746080Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=41&category=8322&urlKey=nha-sach-tiki (Page 41)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:21.746708Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:22.473684Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=42&category=8322&urlKey=nha-sach-tiki (Page 42)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:22.474813Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:23.031615Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=43&category=8322&urlKey=nha-sach-tiki (Page 43)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:23.032223Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:23.624501Z","level":"info","event":"Fetching URL: https://tiki.vn/api/api/personalish/v1/blocks/listings?limit=40&page=44&category=8322&urlKey=nha-sach-tiki (Page 44)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:23.625079Z","level":"info","event":"Status Code: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T04:12:24.262759Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"failed"}},"logger":"task"}
+{"timestamp":"2025-07-13T04:12:24.272629Z","level":"error","event":"Task killed!","logger":"task"}
